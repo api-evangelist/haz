@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://www.haz.co/.well-known/*
+host: https://www.haz.co
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Haz publishes no /.well-known discovery documents. It is a consumer iOS app
+  (Vend Solutions Ltd) with no public API surface, OAuth server, or agent
+  plugin manifest. Absence recorded as valid negative data; no WellKnown
+  pointer wired since no document returned 200.

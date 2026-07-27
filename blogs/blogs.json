@@ -1,0 +1,21 @@
+{
+  "repo": "haz",
+  "feeds": [
+    {
+      "source": "https://www.haz.co/atom.xml",
+      "feed_url": "https://www.haz.co/atom.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.haz.co/",
+      "feed_url": "https://www.haz.co/atom.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-07-25T15:00:33Z"
+}

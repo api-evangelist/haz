@@ -1,8 +1,30 @@
 aid: haz
 name: Haz
-description: Haz is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Haz (operated by Vend Solutions Ltd) is a London-based AI social commerce
+  mobile app that connects friends through the things they own and makes it
+  easier to track, buy, and sell second-hand belongings. Its proprietary
+  receipt-reading technology scans digital purchase receipts in a user's email
+  inbox to automatically digitize owned items in real time, removing the manual
+  listing, photography, and description work traditionally required for resale.
+  Users get real-time valuations of everything they own and can offer items to
+  their social circle in a live feed, increasing the liquidity of everyday goods
+  such as clothing and electronics. Haz launched on iOS in March 2024 and raised
+  a $1.4M pre-seed round led by Speedinvest. It is a consumer application and does
+  not currently publish a public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/haz/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.haz.co/assets/images/logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +33,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Social Commerce
+- Resale
+- Marketplace
+- Consumer
+- Mobile App
+- Artificial Intelligence
+- Secondhand
+- E-Commerce
 apis: []
+common:
+- type: DomainSecurity
+  url: security/haz-domain-security.yml
+- type: Website
+  url: https://www.haz.co/
+- type: Blog
+  url: https://www.haz.co/blog
+- type: Support
+  url: https://www.haz.co/faq
+- type: TermsOfService
+  url: https://hazco.notion.site/Our-Terms-of-Service-7cc8a82cc33f4f6eabf8abc21f6f68d4
+- type: PrivacyPolicy
+  url: https://hazco.notion.site/Our-Privacy-Policy-43c12d96dcd641a3a224c2a7387f5f71
+- type: SignUp
+  url: https://apps.apple.com/gb/app/haz-see-who-has-what/id6476151413
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
