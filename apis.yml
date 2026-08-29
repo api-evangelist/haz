@@ -13,6 +13,17 @@ description: >-
   a $1.4M pre-seed round led by Speedinvest. It is a consumer application and does
   not currently publish a public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/haz/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
