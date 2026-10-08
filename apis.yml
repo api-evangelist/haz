@@ -57,8 +57,6 @@ tags:
 - E-Commerce
 apis: []
 common:
-- type: Plans
-  url: plans/haz-plans-pricing.yml
 - type: DomainSecurity
   url: security/haz-domain-security.yml
 - type: Website
